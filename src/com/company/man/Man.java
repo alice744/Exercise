@@ -1,20 +1,20 @@
 package com.company.man;
 
 public class Man {
-    private static String name;
-    private static String gender;
-    private static int age;
-    private static int weight;
+    private  String name;
+    private  String gender;
+    private  int age;
+    private  int weight;
 
-    private static void name(){
-        Man name=new Man();
+    public void setName(String name){
+       this.name=name;
     }
-    private static void age(){
-        Man age=new Man();
+    public  void setAge(int age){
+       this.age=age;
     }
 
-    private static void weight() {
-        Man weight=new Man();
+    public  void setWeight(int weight) {
+        this.weight=weight;
     }
 
 }
